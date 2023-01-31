@@ -3,7 +3,7 @@
 # Impossibility theorems involving weakenings of expansion consistency and resoluteness in voting
 
 README.md for the code used in the paper [Impossibility theorems involving weakenings of expansion consistency and resoluteness in voting
-](https://arxiv.org/abs/2208.06907) by Wesley H. Holliday, Eric Pacuit, and Saam Zahedian.  
+](https://arxiv.org/abs/2208.06907) by Wesley H. Holliday, Chase Norman,  Eric Pacuit, and Saam Zahedian.  
 
 
 ## Notebooks
@@ -41,7 +41,7 @@ The following notebooks contain the code to reproduce generation of the canonica
 
 8. `weighted_tourns/weighted_tourns_{nc}.pkl`: For $nc\in \{2, 3, 4\}$, `weighted_tourns/weighted_tourns_{nc}.pkl` is a pickle file containing all the canonical weighted tournaments for $nc$ candidates with weights from the set $\{2, 4, 6, 8, 10, 12\}$. 
 
-
+9. A verification of the SAT encoding using the Lean interactive theorem prover is available at [https://github.com/chasenorman/verified-encodings-social-choice](https://github.com/chasenorman/verified-encodings-social-choice). 
 <!-- #endregion -->
 
 ## Requirements
